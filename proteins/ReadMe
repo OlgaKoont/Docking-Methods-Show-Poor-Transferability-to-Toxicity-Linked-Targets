@@ -1,0 +1,6 @@
+All protein structures were preprocessed using the Meeko framework to ensure consistent310
+protonation states. Binding site parameters were then derived with LaBOX. For Estrogen receptor311
+(1ERE), Androgen receptor (4K7A), and CYP2D6 (4WNV), the docking boxes were defined from312
+the co-crystallized ligand, providing reliable reference pockets. In contrast, CYP3A4 (1TQN) was313
+used in its apo form, where the ligand-binding cavity is large and flexible; here, cavity detection was314
+applied to approximate the catalytic site without a priori bias toward a single binding mode
