@@ -1,0 +1,10 @@
+To ensure data quality and comparability across targets, the ligand sets extracted from ChEMBL were317
+subjected to a series of preprocessing steps. Specifically, we removed duplicate entries, ligands with318
+molecular weight exceeding 500 Da, records with non-nanomolar activity units, and compounds with319
+zero or undefined biological activity values. After filtering, the resulting curated datasets contained320
+the following number of ligands:321
+• Ki-based datasets: 356 (4WNV), 422 (4K7A), 193 (1ERE), 64 (1TQN).322
+• IC50-based datasets: 1971 (4WNV), 1512 (4K7A), 2080 (1ERE), 298 (1TQN).323
+These dataset sizes reflect the expected difference in coverage between Ki and IC50 data, with the324
+latter being more abundant in public repositories. The curated ligand collections were subsequently325
+used as the basis for docking and correlation analyses reported in the main text.
